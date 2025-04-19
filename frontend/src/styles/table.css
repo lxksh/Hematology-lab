@@ -1,0 +1,37 @@
+/* CSS for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #ecf0f1;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Add a bit of spacing between cells */
+  td:not(:last-child),
+  th:not(:last-child) {
+    margin-right: 5px;
+  }
+  

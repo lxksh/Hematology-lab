@@ -1,0 +1,64 @@
+/* CSS file */
+.button-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    background-color: transparent;
+    color: #ecf0f1;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3498db; /* Dropdown background color */
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove default list styling */
+  }
+  
+  .dropdown-content li {
+    padding: 8px;
+    margin: 0; /* Remove default margin */
+    line-height: 1; /* Ensure minimal line height */
+    text-decoration: none;
+    color: #ecf0f1;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dropdown-content li:not(:first-child) {
+    margin-top: -1px; /* Adjust for any residual spacing */
+  }
+  
+  .dropdown-content li:hover {
+    background-color: #2980b9; /* Darker background color on hover */
+    color: #fff;
+  }
+  .dropdown-content a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: block;
+    padding: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #2980b9; /* Darker background color on hover */
+    color: #fff;
+  }
+  .button-dropdown:hover .dropdown-btn {
+    text-decoration: underline; /* Change color on hover */
+  }
+  
+  .button-dropdown:hover .dropdown-content {
+    display: block;
+  }
+   

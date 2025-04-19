@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a modern font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #4c78af, #456ba0);
+  color: #ecf0f1;
+  padding: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em; /* Larger font size for the header */
+}
+
+h1 a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a,
+nav span,
+button {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 1em; /* Adjust font size as needed */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: transparent; /* Transparent background */
+  color: #ecf0f1;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+/* Hover effect for the entire header */
+header:hover {
+  background: linear-gradient(to right, #456ba0, #4c78af); /* Reverse gradient on hover */
+}
+
+/* Hover effect for links */
+nav a:hover,
+button:hover {
+  color: white; 
+  text-decoration: underline;
+}

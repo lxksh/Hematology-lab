@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("C:\Users\taman\OneDrive\Pictures\Screenshots\Screenshot (29).png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 100%;
+    padding: 50px;
+    min-height:calc(100vh - 80px);
+}
+
+section .form_data{
+    background-color: #dde2eb;
+    max-width: 550px;
+    margin: 0px auto;
+    padding: 0px 10px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h2{
+    color:#fff;
+    text-align:center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 34px;
+    color: #000000;
+}
+
+.form_data p{
+    color: #000000;
+    font-size: 15px;
+    margin-top:9px;
+}
+
+.form_data form{
+    margin-top: 45px;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input:focus{
+    border:2px solid rgba(0, 0, 0, 0.6);
+}
+
+.form_data form .form_input input::placeholder{
+    color: black;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a4365;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section .btn{
+    display:block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #577aba;
+    /* background-color:rgb(207, 112, 167); */
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+section .btn:hover{
+    background-color: #97a1b1;
+}
+section .btnload{
+    background-color: #97a1b1;
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a{
+    text-decoration: none;
+    color:#718096 ;
+    border-bottom: 2px solid #8694a8;
+}
